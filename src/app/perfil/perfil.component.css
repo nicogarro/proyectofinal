@@ -1,0 +1,42 @@
+img {border-radius: 25%;
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+}
+ p {
+     color: white;
+     font-size: small;
+     margin-left: 5px;
+     
+     padding-bottom: 10px;
+     height: 30px;
+     width: 250px;
+     
+    
+    
+       
+}
+ul {
+    
+    float: right; 
+    height: 50px;
+    width: 250px;
+    margin-top: 60px;
+    
+}
+ #botoneditar {
+     height: 5px;
+     width: 5px;
+     float: right;
+     
+ }
+
+ #nombre{
+     background-color: brown;
+     border-style: none;
+ }
+ #carrera {
+     float: right;
+     background-color: brown;
+     border-style: none;
+ }
