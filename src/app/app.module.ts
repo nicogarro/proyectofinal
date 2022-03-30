@@ -8,6 +8,7 @@ import { SocialComponent } from './social/social.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { ProgramoComponent } from './programo/programo.component'
 import { FormsModule } from '@angular/forms';
+import { BannerComponent } from './banner/banner.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { FormsModule } from '@angular/forms';
     SocialComponent,
     PerfilComponent,
     ProgramoComponent,
+    BannerComponent,
   ],
   imports: [
     BrowserModule,
