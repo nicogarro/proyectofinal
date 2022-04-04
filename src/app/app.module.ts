@@ -9,6 +9,8 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { ProgramoComponent } from './programo/programo.component'
 import { FormsModule } from '@angular/forms';
 import { BannerComponent } from './banner/banner.component';
+import { ExperienciaComponent } from './experiencia/experiencia.component';
+import { EducacionComponent } from './educacion/educacion.component';
 
 
 @NgModule({
@@ -19,6 +21,8 @@ import { BannerComponent } from './banner/banner.component';
     PerfilComponent,
     ProgramoComponent,
     BannerComponent,
+    ExperienciaComponent,
+    EducacionComponent,
   ],
   imports: [
     BrowserModule,
