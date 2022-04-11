@@ -11,6 +11,8 @@ import { FormsModule } from '@angular/forms';
 import { BannerComponent } from './banner/banner.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { EducacionComponent } from './educacion/educacion.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { SkiilComponent } from './skiil/skiil.component';
 
 
 @NgModule({
@@ -23,11 +25,13 @@ import { EducacionComponent } from './educacion/educacion.component';
     BannerComponent,
     ExperienciaComponent,
     EducacionComponent,
+    SkiilComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    NgCircleProgressModule.forRoot ({})
   ],
   providers: [],
   bootstrap: [AppComponent]
