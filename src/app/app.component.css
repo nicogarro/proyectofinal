@@ -1,11 +1,8 @@
-#header{
-   background-color: brown;
- 
-
-    
-    
-        
+#header {
+    background: url("../assets/fondo.png");
+    background-size: cover ;
 }
+    
 
 
 
