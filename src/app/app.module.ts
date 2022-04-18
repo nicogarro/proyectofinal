@@ -13,6 +13,7 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { EducacionComponent } from './educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkiilComponent } from './skiil/skiil.component';
+import { ProyectoComponent } from './proyecto/proyecto.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { SkiilComponent } from './skiil/skiil.component';
     ExperienciaComponent,
     EducacionComponent,
     SkiilComponent,
+    ProyectoComponent,
   ],
   imports: [
     BrowserModule,
