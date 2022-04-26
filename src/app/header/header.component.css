@@ -1,5 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .row{
-    background-color: red;
+    background-color: rgb(119, 116, 116);
+    margin-left: 10px;
+margin-right:10px; 
+    
+    
 }
 img {
     height: 40px;
@@ -9,8 +18,12 @@ img {
 }
 .redes { 
     float: right;
+    margin-right: 5px;
    
         }
+.btn {
+    border-width: medium;
+}
 
  
           

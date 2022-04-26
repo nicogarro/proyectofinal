@@ -1,6 +1,10 @@
 .row{
-    padding: 20px;
-}
+    padding: 20px;    
+    margin-left: 10px;
+margin-right:10px;  
+    background-image: url(src\assets\fondo.png);    
+    background-size: cover;}
+
 .contenedor{
     width: auto;
 }
