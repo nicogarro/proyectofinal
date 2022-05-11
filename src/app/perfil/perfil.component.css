@@ -6,6 +6,10 @@ margin-right:10px;
     background-size: cover;
 }
 
+#fotoperfil{
+    margin-left: 15px;
+}
+
 
 .div{
     background-color: blue;
@@ -17,7 +21,7 @@ margin-right:10px;
 @media (min-width: 576px){
     #fotoperfil{
         position: absolute;
-        width: 15%;
+        width: 120px;
         border-radius: 100%;
         box-shadow: 3px 3px 3px black;
         top: 200px;
@@ -34,4 +38,6 @@ margin-right:10px;
         top: 200px;
         left: 40%;
     }
-    }
+   
+    
+  }

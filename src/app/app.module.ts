@@ -13,6 +13,7 @@ import { SkiilComponent } from './skiil/skiil.component';
 import { ProyectoComponent } from './proyecto/proyecto.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { BotoneditarComponent } from './botoneditar/botoneditar.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { HeaderComponent } from './header/header.component';
     ProyectoComponent,
     FooterComponent,
     HeaderComponent,
+    BotoneditarComponent,
   ],
   imports: [
     BrowserModule,

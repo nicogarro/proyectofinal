@@ -3,12 +3,10 @@
     justify-content: space-between;
     align-items: center;
 }
-.row{
-    background-color: rgb(119, 116, 116);
+.row{    
     margin-left: 10px;
-margin-right:10px; 
-    
-    
+    margin-right: 5px;
+        
 }
 img {
     height: 40px;
@@ -23,6 +21,9 @@ img {
         }
 .btn {
     border-width: medium;
+    float: right;
+    margin-left: 10px;
+    
 }
 
  
