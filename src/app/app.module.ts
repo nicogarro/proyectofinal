@@ -3,18 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PerfilComponent } from './perfil/perfil.component';
+import { PerfilComponent } from './componentes/perfil/perfil.component';
 import { FormsModule } from '@angular/forms';
-import { BannerComponent } from './banner/banner.component';
-import { ExperienciaComponent } from './experiencia/experiencia.component';
-import { EducacionComponent } from './educacion/educacion.component';
+import { BannerComponent } from './componentes/banner/banner.component';
+import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
+import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
-import { SkiilComponent } from './skiil/skiil.component';
-import { ProyectoComponent } from './proyecto/proyecto.component';
-import { FooterComponent } from './footer/footer.component';
-import { HeaderComponent } from './header/header.component';
-import { BotoneditarComponent } from './botoneditar/botoneditar.component';
-
+import { SkiilComponent } from './componentes/skiil/skiil.component';
+import { ProyectoComponent } from './componentes/proyecto/proyecto.component';
+import { FooterComponent } from './componentes/footer/footer.component';
+import { HeaderComponent } from './componentes/header/header.component';
+import { BotoneditarComponent } from './componentes/botoneditar/botoneditar.component';
+import { HttpClient, HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -35,7 +35,8 @@ import { BotoneditarComponent } from './botoneditar/botoneditar.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    NgCircleProgressModule.forRoot ({})
+    NgCircleProgressModule.forRoot ({}),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
